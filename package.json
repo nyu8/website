@@ -1,0 +1,35 @@
+{
+  "name": "@nyu8/website",
+  "version": "1.0.0",
+  "description": "Main website for NYU8.",
+  "main": "index.js",
+  "repository": "https://github.com/nyu8/website.git",
+  "author": "NYU8 <dev@nyu8.com>",
+  "license": "GPL-3.0",
+  "private": true,
+  "scripts": {
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "@mdx-js/mdx": "^1.6.22",
+    "@mdx-js/react": "^1.6.22",
+    "autoprefixer": "^10.2.6",
+    "gatsby": "^3.7.1",
+    "gatsby-plugin-gatsby-cloud": "^2.7.1",
+    "gatsby-plugin-mdx": "^2.7.1",
+    "gatsby-plugin-postcss": "^4.7.1",
+    "gatsby-plugin-sitemap": "^4.3.1",
+    "gatsby-source-filesystem": "^3.7.1",
+    "postcss": "^8.3.4",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "tailwindcss": "^2.1.4",
+    "tslib": "^2.3.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.3.2"
+  }
+}
