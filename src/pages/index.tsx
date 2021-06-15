@@ -3,6 +3,8 @@ import * as React from 'react';
 import FullLogo from '../images/nyu8-full-logo-120.png';
 import GitHubLogo from '../images/github.svg';
 
+const FORUM_URL = process.env.FORUM_URL || 'https://discuss.nyu8.com';
+
 interface LinkButtonProps {
   children: React.ReactNode;
   target?: string;
@@ -25,7 +27,7 @@ export default () => {
       <div className="flex flex-col items-center">
         <img className="w-64 mb-10" src={FullLogo} />
         <div className="flex flex-row items-center justify-center text-gray-600">
-          <LinkButton href="https://discuss.nyu8.com">进入社区</LinkButton>
+          <LinkButton href={FORUM_URL}>进入社区</LinkButton>
           <LinkButton target="_blank" href="https://github.com/nyu8">
             <img className="h-5 mr-3" src={GitHubLogo} />
             GitHub
