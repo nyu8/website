@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: 'NYU8',
-    siteUrl: process.env.SITE_URL || 'https://nyu8.com',
+    siteUrl: process.env.GATSBY_SITE_URL || 'https://nyu8.com',
   },
   plugins: [
     'gatsby-plugin-postcss',

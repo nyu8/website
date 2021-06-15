@@ -3,7 +3,7 @@ import * as React from 'react';
 import FullLogo from '../images/nyu8-full-logo-120.png';
 import GitHubLogo from '../images/github.svg';
 
-const FORUM_URL = process.env.FORUM_URL || 'https://discuss.nyu8.com';
+const FORUM_URL = process.env.GATSBY_FORUM_URL || 'https://discuss.nyu8.com';
 
 interface LinkButtonProps {
   children: React.ReactNode;
