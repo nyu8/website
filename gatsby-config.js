@@ -4,6 +4,7 @@ module.exports = {
     siteUrl: process.env.GATSBY_SITE_URL || 'https://nyu8.com',
   },
   plugins: [
+    'gatsby-plugin-react-helmet',
     'gatsby-plugin-postcss',
     'gatsby-plugin-gatsby-cloud',
     'gatsby-plugin-sitemap',

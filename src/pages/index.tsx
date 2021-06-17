@@ -1,4 +1,5 @@
 import * as React from 'react';
+import {Helmet} from 'react-helmet';
 
 import FullLogo from '../images/nyu8-full-logo-120.png';
 import GitHubLogo from '../images/github.svg';
@@ -24,6 +25,14 @@ const LinkButton = (props: LinkButtonProps) => {
 export default () => {
   return (
     <div className="w-screen h-screen flex flex-col items-center justify-center">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>NYU8 - 纽约大学中文社区</title>
+        <meta
+          name="description"
+          content="纽约大学中文社区NYU8是由纽约大学学生与校友驱动的中文社区，提供微信组群、学习、实习、生活等交流平台！社区基于开源技术创建并且本身也完全开源。"
+        />
+      </Helmet>
       <div className="flex flex-col items-center">
         <img className="w-64 mb-10" src={FullLogo} />
         <div className="flex flex-row items-center justify-center text-gray-600">

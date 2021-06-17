@@ -21,15 +21,18 @@
     "gatsby-plugin-gatsby-cloud": "^2.7.1",
     "gatsby-plugin-mdx": "^2.7.1",
     "gatsby-plugin-postcss": "^4.7.1",
+    "gatsby-plugin-react-helmet": "^4.7.1",
     "gatsby-plugin-sitemap": "^4.3.1",
     "gatsby-source-filesystem": "^3.7.1",
     "postcss": "^8.3.4",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-helmet": "^6.1.0",
     "tailwindcss": "^2.1.4",
     "tslib": "^2.3.0"
   },
   "devDependencies": {
+    "@types/react-helmet": "^6.1.1",
     "typescript": "^4.3.2"
   }
 }
