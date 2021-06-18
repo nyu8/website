@@ -1,7 +1,7 @@
 import * as React from 'react';
 import {Helmet} from 'react-helmet';
 
-import {StatisticsScript} from './statistics';
+import {StatisticsScript} from '../components/statistics';
 
 import FullLogo from '../images/nyu8-full-logo-120.png';
 import GitHubLogo from '../images/github.svg';
