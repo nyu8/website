@@ -1,6 +1,8 @@
 import * as React from 'react';
 import {Helmet} from 'react-helmet';
 
+import {StatisticsScript} from './statistics';
+
 import FullLogo from '../images/nyu8-full-logo-120.png';
 import GitHubLogo from '../images/github.svg';
 
@@ -44,6 +46,7 @@ export default () => {
         </div>
         <div className="mt-5 text-gray-400">©️ 2021 NYU8</div>
       </div>
+      <StatisticsScript />
     </div>
   );
 };
